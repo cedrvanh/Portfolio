@@ -1,0 +1,29 @@
+.header {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+
+    &__left,
+    &__right {
+        flex-wrap: wrap;
+    }
+    
+    &__brand {
+        font-size: 2.5rem;
+    }
+
+    &-nav {
+        &__list {
+            display: flex;
+        }
+
+        &__item {
+            margin-left: 2rem;
+        }
+
+        &__link {
+            font-size: 2.5rem;
+        }
+    }
+}

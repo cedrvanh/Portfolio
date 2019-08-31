@@ -1,0 +1,21 @@
+.project-item {
+    display: flex;
+    flex-direction: column;
+
+    height: 560px;
+    background-color: $color-primary;
+    overflow: hidden;
+    
+    &__text {
+        color: white;
+        font-size: 2rem;
+        padding: 3.2rem 0rem 0rem 6.4rem;
+    }
+
+    &__image {
+        position: relative;
+        height: 100%;
+        flex-grow: 1;
+        margin: 0;
+    }
+}
