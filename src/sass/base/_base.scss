@@ -55,6 +55,7 @@ ul {
     }
 
     &--wide {
+        position: relative;
         width: 100%;
         max-width: $container-width-wide;
         margin-left: auto;
