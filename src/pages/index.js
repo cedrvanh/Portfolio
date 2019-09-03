@@ -5,26 +5,26 @@ import SEO from "../components/seo"
 import ScrollArrow from "../components/scrollArrow"
 import ProjectCard from "../components/projectCard";
 
-import JourlyImg from '../images/jourly-iphone.png';
-import LoungeImg from '../images/lounge-mac.png';
+import JourlyImg from '../images/jourly-mockup.png';
+import SleepImg from '../images/sleep-mockup.png';
 import HeroImg from '../images/hero.jpg';
 
 const data = [
     {
         title: 'Jourly',
-        image: JourlyImg
+        image: JourlyImg,
     },
     {
         title: 'Sleep Tight',
-        image: LoungeImg
+        image: SleepImg
     },
     {
         title: 'Lounge',
-        image: JourlyImg
+        image: SleepImg
     },
     {
         title: 'Limento',
-        image: LoungeImg
+        image: JourlyImg
     },
 ]
 const IndexPage = () => (
@@ -61,16 +61,33 @@ const IndexPage = () => (
             </section>
             <section className="skills">
                 <h1>Skills</h1>
-                <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                </p>
+                <div className="row">
+                   <div className="col-6">
+                        <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        </p>   
+                    </div> 
+                    <div className="col-6">
+                        <ul>
+                            <li>HTML</li>
+                            <li>Php</li>
+                            <li>Javascript</li>
+                            <li>Laravel</li>
+                        </ul>   
+                    </div> 
+                </div>         
             </section>
         </div>
-        <section className="contact-bar">
-            <div className="container--wide">
-                <h1>Contact Me</h1>
+        {/* <section className="contact-bar">
+            <div className="row">
+                <div className="col-6 flex-center contact-bar-left">
+                    <h2>About Me</h2>
+                </div>
+                <div className="col-6 flex-center contact-bar-right">
+                    <h2>Contact Me</h2>
+                </div>
             </div>
-        </section>
+        </section> */}
         <footer className="footer">
             <div className="container--wide">
                 <p>@Cedric Vanhaegenberg</p>
