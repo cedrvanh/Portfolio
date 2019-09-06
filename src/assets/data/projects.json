@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Jourly",
+        "slug": "jourly",
+        "category": "Mobile Application",
+        "thumbnail": "../project-1/thumbnail.png"
+    },
+    {
+        "title": "Sleep Tight",
+        "slug": "sleep-tight",
+        "category": "Mobile Application",
+        "thumbnail": "../project-1/thumbnail.png"
+    },
+    {
+        "title": "Lounge",
+        "slug": "lounge",
+        "category": "Mobile Application",
+        "thumbnail": "../project-1/thumbnail.png"
+    },
+    {
+        "title": "Limento",
+        "slug": "limento",
+        "category": "Mobile Application",
+        "thumbnail": "../project-1/thumbnail.png"
+    }
+]
