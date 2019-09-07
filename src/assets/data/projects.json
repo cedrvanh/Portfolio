@@ -2,8 +2,23 @@
     {
         "title": "Jourly",
         "slug": "jourly",
+        "content": {
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        },
         "category": "Mobile Application",
-        "thumbnail": "../project-1/thumbnail.png"
+        "tags": ["React Native", "Expo", "Firebase", "SCSS"],
+        "thumbnail": "../project-1/thumbnail.png",
+        "media": [
+            {
+                "path": "../project-1/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-1/mockup-2.jpg",
+                "caption": null
+            }
+        ]
     },
     {
         "title": "Sleep Tight",

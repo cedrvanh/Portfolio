@@ -11,6 +11,11 @@ export const query = graphql`
             title
             slug
             category
+            tags
+            content {
+                desc
+                short_desc
+            }
             thumbnail {
                 childImageSharp {
                     fluid {
@@ -28,7 +33,6 @@ const ProjectTemplate = ({ data }) => {
     return (
         <Layout>
             <div className="container--wide" style={{paddingTop: '70px'}}>
-                <pre>{JSON.stringify(project, null, 2)}</pre>
                 <ProjectDetail 
                     project={project}
                 />

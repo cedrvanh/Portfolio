@@ -40,6 +40,11 @@ const IndexPage = () => {
                         title
                         slug
                         category
+                        tags
+                        content {
+                            desc
+                            short_desc
+                        }
                         thumbnail {
                             childImageSharp {
                                 fluid {
