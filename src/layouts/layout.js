@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <main>{children}</main>
     </>
   )

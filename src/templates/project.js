@@ -23,6 +23,16 @@ export const query = graphql`
                     }
                 }
             }
+            media {
+                caption
+                path {
+                    childImageSharp {
+                        fluid (quality: 100, maxWidth: 1400) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
         }
     }
 `;
@@ -32,11 +42,9 @@ const ProjectTemplate = ({ data }) => {
 
     return (
         <Layout>
-            <div className="container--wide" style={{paddingTop: '70px'}}>
-                <ProjectDetail 
-                    project={project}
-                />
-            </div>
+            <ProjectDetail 
+                project={project}
+            />
         </Layout>
     )
 };

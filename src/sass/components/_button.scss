@@ -1,0 +1,56 @@
+.btn {
+    display: inline-block;
+    height: 50px;
+    margin: 0 1.6rem 1.6rem 0;
+    padding: 0 5rem;
+    overflow: hidden;
+    background: none;
+    border-radius: 6px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .3s ease;
+
+    &-group {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1.6rem 0;
+    }
+
+    &-move-anim {      
+        &:hover .btn-label-up {
+            top: -100%;
+        }
+
+        &:hover .btn-label-down {
+            top: 0%;
+        }
+    }
+
+    &-label-up, &-label-down {
+        position: relative;
+        display: block;
+        height: 100%;
+        transition: all .3s ease;
+    }
+
+    &-label-up {
+        top: 0;
+    }
+
+    &-label-down {
+        top: -100%;
+    }
+
+    &--primary {
+        background-color: $color-primary;
+        color: $color-secondary;
+    }
+
+    &--secondary {
+        background-color: $color-secondary;
+        color: #fff;
+    }
+}

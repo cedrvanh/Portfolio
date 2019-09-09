@@ -2,13 +2,15 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const ProjectCard = ({ project }) => {
-    const bgImage = {
-        backgroundImage: `url(${project.thumbnail.childImageSharp.fluid.src})`,
-        backgroundColor: `${project.background}`
+    const styles = {
+        bgImage: {
+            backgroundImage: `url(${project.thumbnail.childImageSharp.fluid.src})`,
+            backgroundColor: `${project.background}`
+        }
     }
 
     return (
-        <article className="project-item" style={bgImage}>
+        <article className="project-item" style={styles.bgImage}>
             <div className="project-item__text">
                 <h2 className="project-title uppercase">{ project.title }</h2>
                 <span className="project-subtitle light">Mobile Application</span>

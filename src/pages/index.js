@@ -8,28 +8,7 @@ import ScrollArrow from "../components/ScrollArrow"
 import ProjectCard from "../components/ProjectCard";
 import SkillList from "../components/SkillList";
 
-import JourlyImg from '../images/jourly-mockup.png';
-import SleepImg from '../images/sleep-mockup.png';
 import HeroImg from '../images/hero.jpg';
-
-// const data = [
-//     {
-//         title: 'Jourly',
-//         image: JourlyImg,
-//     },
-//     {
-//         title: 'Sleep Tight',
-//         image: SleepImg
-//     },
-//     {
-//         title: 'Lounge',
-//         image: SleepImg
-//     },
-//     {
-//         title: 'Limento',
-//         image: JourlyImg
-//     },
-// ]
 
 const IndexPage = () => {
     const data = useStaticQuery(graphql`
