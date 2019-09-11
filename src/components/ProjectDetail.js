@@ -7,6 +7,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 
+// Import components
+import NextProject from './NextProject';
+
 const ProjectDetail = ({ project }) => {
     const styles = {
         bgImage: {
@@ -61,8 +64,10 @@ const ProjectDetail = ({ project }) => {
                         )
                     })
                 }
-            </div>
 
+                
+            </div>
+            <NextProject />
             {/* <ul>
                 {
                     project.tags.map((tag) => {

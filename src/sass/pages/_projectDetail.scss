@@ -1,6 +1,4 @@
 .project-detail {
-    
-
     &-header {
         display: flex;
         align-items: center;
@@ -50,4 +48,72 @@
         margin: 1rem 0;
         font-size: 7rem;
     }
+
+    &__next {
+        z-index: 99;
+        transition: all .6s ease;
+        cursor: pointer;
+
+        &::after {
+            content: '\0279E'; 
+            padding-left: 8px;
+        }
+
+        &:hover {
+
+            &::after {
+                padding-left: 16px;
+            }
+        }
+    }
+
+}
+
+.bar {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: $color-primary;
+    overflow: hidden;
+
+    &-link {
+        padding: 0;
+        margin: 0;
+        background: none;
+    }
+
+    &--transition-1 {
+        z-index: 9999;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: lighten($color-secondary, 15);
+        transition: all .6s ease-in-out;
+    }
+
+    &--transition-2 {
+        z-index: 99;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color-secondary;
+        transition: all .3s ease-in-out;
+    }
+
+    &:hover {
+        color: white;
+
+        .bar--transition-1 {
+            top: -100%;
+        }
+        
+        .bar--transition-2 {
+            top: 0;
+        }
+    } 
 }
