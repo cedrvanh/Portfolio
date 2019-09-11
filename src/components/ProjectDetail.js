@@ -10,7 +10,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 // Import components
 import NextProject from './NextProject';
 
-const ProjectDetail = ({ project }) => {
+const ProjectDetail = ({ project, nextProject }) => {
     const styles = {
         bgImage: {
             backgroundImage: `url(${project.header.childImageSharp.fluid.src})`,
@@ -67,7 +67,7 @@ const ProjectDetail = ({ project }) => {
 
                 
             </div>
-            <NextProject />
+            <NextProject next={nextProject} />
             {/* <ul>
                 {
                     project.tags.map((tag) => {

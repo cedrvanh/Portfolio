@@ -48,13 +48,15 @@ export const query = graphql`
     }
 `;
 
-const ProjectTemplate = ({ data }) => {
+const ProjectTemplate = ({ data, pathContext }) => {
     const project = data.projectsJson;
+    const { next } = pathContext;
 
     return (
         <Layout>
             <ProjectDetail 
                 project={project}
+                nextProject={next}
             />
         </Layout>
     )

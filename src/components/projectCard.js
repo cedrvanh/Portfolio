@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
             <div className="project-item__content">
                 <div className="project-item__head">
                     <h2 className="project-title uppercase">{ project.title }</h2>
-                    <span className="project-subtitle">Mobile Application</span> 
+                    <span className="project-subtitle">{ project.category }</span> 
                     <span className="project-desc">{ project.content.short_desc  }</span>
                 </div>
                 <div className="project-item__footer">

@@ -28,31 +28,79 @@
     {
         "title": "Sleep Tight",
         "slug": "sleep-tight",
-        "category": "Mobile Application",
-        "thumbnail": "../project-1/thumbnail.png",
         "content": {
             "desc": "Jourly is a personal diary based on your current mood. Write notes, take pictures and tell it how you feel. If you are feeling unhappy the diary will try to cheer you up with previous pleasant memories. Jourly gives you a weekly overview of your emotions so you can easily tell how happy you were during that week. Our goal is to make you remember the happy times and have you feel good about yourself.",
             "short_desc": "Jourly is a personal diary based on your current mood."
-        }
+        },
+        "category": "Mobile Application",
+        "tags": ["React Native", "Expo", "Firebase", "SCSS"],
+        "thumbnail": "../project-1/thumbnail.png",
+        "header": "../project-1/header.png",
+        "links": {
+            "repo": "https://github.com/cedrvanh/Jourly",
+            "live": "https://github.com/cedrvanh/Jourly"
+        },
+        "media": [
+            {
+                "path": "../project-1/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-1/mockup-2.jpg",
+                "caption": null
+            }
+        ]
     },
     {
         "title": "Lounge",
         "slug": "lounge",
-        "category": "Agency Website",
-        "thumbnail": "../project-1/thumbnail.png",
         "content": {
             "desc": "Jourly is a personal diary based on your current mood. Write notes, take pictures and tell it how you feel. If you are feeling unhappy the diary will try to cheer you up with previous pleasant memories. Jourly gives you a weekly overview of your emotions so you can easily tell how happy you were during that week. Our goal is to make you remember the happy times and have you feel good about yourself.",
             "short_desc": "Jourly is a personal diary based on your current mood."
-        }
+        },
+        "category": "Mobile Application",
+        "tags": ["React Native", "Expo", "Firebase", "SCSS"],
+        "thumbnail": "../project-1/thumbnail.png",
+        "header": "../project-1/header.png",
+        "links": {
+            "repo": "https://github.com/cedrvanh/Jourly",
+            "live": "https://github.com/cedrvanh/Jourly"
+        },
+        "media": [
+            {
+                "path": "../project-1/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-1/mockup-2.jpg",
+                "caption": null
+            }
+        ]
     },
     {
         "title": "Limento",
         "slug": "limento",
-        "category": "Mobile Application",
-        "thumbnail": "../project-1/thumbnail.png",
         "content": {
             "desc": "Jourly is a personal diary based on your current mood. Write notes, take pictures and tell it how you feel. If you are feeling unhappy the diary will try to cheer you up with previous pleasant memories. Jourly gives you a weekly overview of your emotions so you can easily tell how happy you were during that week. Our goal is to make you remember the happy times and have you feel good about yourself.",
             "short_desc": "Jourly is a personal diary based on your current mood."
-        }
+        },
+        "category": "Mobile Application",
+        "tags": ["React Native", "Expo", "Firebase", "SCSS"],
+        "thumbnail": "../project-1/thumbnail.png",
+        "header": "../project-1/header.png",
+        "links": {
+            "repo": "https://github.com/cedrvanh/Jourly",
+            "live": "https://github.com/cedrvanh/Jourly"
+        },
+        "media": [
+            {
+                "path": "../project-1/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-1/mockup-2.jpg",
+                "caption": null
+            }
+        ]
     }
 ]

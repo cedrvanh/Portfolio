@@ -25,11 +25,18 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
     const projects = result.data.allProjectsJson.edges;
 
-    projects.forEach(({ node: { slug } }) => {
+    projects.forEach(({ node: { slug } }, index) => {
+        const next = index === projects.length - 1 ? false : projects[index + 1].node;
+
         actions.createPage({
             path: `${slug}`,
             component: require.resolve('./src/templates/project.js'),
-            context: { slug }
+            context: { 
+                slug,
+                next
+            }
         });
+
+        return projects;
     });
 };
