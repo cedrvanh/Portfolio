@@ -14,13 +14,14 @@ const ProjectCard = ({ project }) => {
             <div className="project-item__content">
                 <div className="project-item__head">
                     <h2 className="project-title uppercase">{ project.title }</h2>
-                    <span className="project-subtitle light">Mobile Application</span>  
+                    <span className="project-subtitle">Mobile Application</span> 
+                    <span className="project-desc">{ project.content.short_desc  }</span>
                 </div>
                 <div className="project-item__footer">
-                    <Link to={ project.slug }>View More</Link>
+                    <Link to={ project.slug } className="uppercase bold">View More</Link>
                 </div>
             </div>
-            {/* <div className="project-item__overlay"></div> */}
+            <div className="project-item__overlay"></div>
         </article>
     )
 };

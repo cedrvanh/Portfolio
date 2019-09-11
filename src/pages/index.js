@@ -7,6 +7,7 @@ import SEO from "../components/Seo"
 import ScrollArrow from "../components/ScrollArrow"
 import ProjectCard from "../components/ProjectCard";
 import SkillList from "../components/SkillList";
+import Footer from "../components/Footer";
 
 import HeroImg from '../images/hero.jpg';
 
@@ -20,6 +21,9 @@ const IndexPage = () => {
                         slug
                         category
                         tags
+                        content {
+                            short_desc
+                        }
                         thumbnail {
                             childImageSharp {
                                 fluid {
@@ -56,11 +60,9 @@ const IndexPage = () => {
                     <h1>Projects</h1>
                     <div className="project-list">
 
-                        {
-                            projects.map(({ node: project }) => {
-                                return <ProjectCard project={project} /> 
-                            })
-                        }
+                        {projects.map(({ node: project }) => {
+                            return <ProjectCard project={project} /> 
+                        })}
                         
                         {/* <ProjectCard type="project-item square-block" />
                         <ProjectCard type="project-item vertical-block" />
@@ -92,11 +94,7 @@ const IndexPage = () => {
                     </div>
                 </div>
             </section> */}
-            <footer className="footer">
-                <div className="container--wide">
-                    <p>@Cedric Vanhaegenberg</p>
-                </div>
-            </footer>
+            <Footer />
         </Layout>
     )
 }

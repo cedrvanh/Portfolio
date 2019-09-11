@@ -4,11 +4,10 @@
     cursor: pointer;
 
     &::after {
-        content: '\0279E'; 
+        content: '\0279E';
         padding-left: 8px;
     }
 }
-
 
 .bar {
     z-index: 1;
