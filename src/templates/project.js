@@ -16,9 +16,20 @@ export const query = graphql`
                 desc
                 short_desc
             }
+            links  {
+                repo
+                live
+            }
             thumbnail {
                 childImageSharp {
                     fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            header {
+                childImageSharp {
+                    fluid (quality: 100, maxWidth: 1500) {
                         ...GatsbyImageSharpFluid
                     }
                 }
@@ -27,7 +38,7 @@ export const query = graphql`
                 caption
                 path {
                     childImageSharp {
-                        fluid (quality: 100, maxWidth: 1400) {
+                        fluid (quality: 100, maxWidth: 1500) {
                             ...GatsbyImageSharpFluid
                         }
                     }

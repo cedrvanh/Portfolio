@@ -10,7 +10,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 const ProjectDetail = ({ project }) => {
     const styles = {
         bgImage: {
-            backgroundImage: `url(${project.thumbnail.childImageSharp.fluid.src})`,
+            backgroundImage: `url(${project.header.childImageSharp.fluid.src})`,
         } 
     }
 
@@ -36,18 +36,18 @@ const ProjectDetail = ({ project }) => {
                         <div className="project-detail-intro__right project-detail-intro__text">
                             <p>{ project.content.desc || project.content.short_desc }</p>
                             <div className="btn-group">
-                                <Link href="#" className="btn btn--primary btn-move-anim">
+                                <a href={ project.links.live } className="btn btn--primary btn-move-anim">
                                     <span className="btn-label-up">Website</span>
                                     <span className="btn-label-up">
                                         <FontAwesomeIcon icon={faEye} size="lg" />
                                     </span>
-                                </Link>
-                                <Link href="#" className="btn btn--secondary btn-move-anim">
+                                </a>
+                                <a href={ project.links.repo } className="btn btn--secondary btn-move-anim">
                                     <span className="btn-label-up">Github</span>
                                     <span className="btn-label-up">
                                         <FontAwesomeIcon icon={faGithub} color={'#fff'} size="lg" />
                                     </span>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
