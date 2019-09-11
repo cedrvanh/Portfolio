@@ -36,7 +36,5 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
                 next
             }
         });
-
-        return projects;
     });
 };
