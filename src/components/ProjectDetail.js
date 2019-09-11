@@ -14,7 +14,12 @@ const ProjectDetail = ({ project }) => {
         } 
     }
 
+    if (!project) {
+        return null
+    }
+
     return (
+        
         <section className="project-detail">
             <div className="project-detail-header" style={styles.bgImage}>
                 <div className="container--wide">
@@ -23,28 +28,30 @@ const ProjectDetail = ({ project }) => {
                 </div>
             </div>
             <div className="container--wide">
-                <div className="project-detail-intro">
-                    <div className="project-detail-intro__left">
-                        <h1>Introduction</h1>
-                    </div>
-                    <div className="project-detail-intro__right project-detail-intro__text">
-                        <p>{ project.content.desc }</p>
-                        <div className="btn-group">
-                            <Link href="#" className="btn btn--primary btn-move-anim">
-                                <span className="btn-label-up">Website</span>
-                                <span className="btn-label-up">
-                                    <FontAwesomeIcon icon={faEye} size="lg" />
-                                </span>
-                            </Link>
-                            <Link href="#" className="btn btn--secondary btn-move-anim">
-                                <span className="btn-label-up">Github</span>
-                                <span className="btn-label-up">
-                                    <FontAwesomeIcon icon={faGithub} color={'#fff'} size="lg" />
-                                </span>
-                            </Link>
+                {project.content && 
+                    <div className="project-detail-intro">
+                        <div className="project-detail-intro__left">
+                            <h1>Introduction</h1>
+                        </div>
+                        <div className="project-detail-intro__right project-detail-intro__text">
+                            <p>{ project.content.desc || project.content.short_desc }</p>
+                            <div className="btn-group">
+                                <Link href="#" className="btn btn--primary btn-move-anim">
+                                    <span className="btn-label-up">Website</span>
+                                    <span className="btn-label-up">
+                                        <FontAwesomeIcon icon={faEye} size="lg" />
+                                    </span>
+                                </Link>
+                                <Link href="#" className="btn btn--secondary btn-move-anim">
+                                    <span className="btn-label-up">Github</span>
+                                    <span className="btn-label-up">
+                                        <FontAwesomeIcon icon={faGithub} color={'#fff'} size="lg" />
+                                    </span>
+                                </Link>
+                            </div>
                         </div>
                     </div>
-                </div>
+                }
                 {
                     project.media.map((image) => {
                         return (

@@ -7,17 +7,29 @@
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
-    background-color: darken($color-light, 10);
+    background-color: $color-primary;
     overflow: hidden;
     
-
     &:hover > &__overlay {
         opacity: 0.7;
     }
 
-    &__text {
-        color: white;
-        padding: 6.4rem 0rem 0rem 6.4rem;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        color: $color-secondary;
+        padding: 6.4rem;
+    }
+
+    &__footer {
+        a {
+            font-size: 1.7rem;
+            background: none;
+            padding: 0;
+            margin: 0;
+        }
     }
 
     &__overlay {
@@ -38,6 +50,6 @@
 }
 
 .project-subtitle {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.8);
     font-size: 2rem;
 }
