@@ -7,9 +7,6 @@ const NextProject = () => (
             <div className="container--wide" style={{ zIndex: '999'}}>
                 <h2 className="project-detail__next">Next Project</h2>
             </div>
-
-            <div className="bar--transition-1"></div>
-            <div className="bar--transition-2 anim--delay-2"></div>
         </section>  
     </Link>
 )

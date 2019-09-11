@@ -68,12 +68,12 @@ const IndexPage = () => {
                         <ProjectCard type="project-item horizontal-block" /> */}
                     </div>
                 </section>
-                <section className="skills">
-                    <h1>Skills</h1>
+                <section className="technologies">
+                    <h1>Technologies</h1>
                     <div className="row">
                     <div className="col-6">
-                            <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            <p className="technologies__text">
+                                These are some of the web technologies I'm familiar with and have used in recent years. There is still a lot left to learn and discover and I'm still improving in Front and Backend development.
                             </p>   
                         </div> 
                         <div className="col-6">

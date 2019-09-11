@@ -1,16 +1,39 @@
 import React from "react";
+import { graphql, useStaticQuery } from 'gatsby';
 
 const SkillList = () => {
+    const data = useStaticQuery(graphql`
+        query {
+            allTechnologiesJson {
+                edges {
+                    node {
+                        category
+                        skills {
+                            name
+                        }
+                    }
+                }
+            }
+        }
+    `);
+
+    const technologies = data.allTechnologiesJson.edges;
+
     return (
-        <ul className="skill-list">
-            <li className="skill-list__item">Javascript (ES6)</li>
-            <li className="skill-list__item">React + (Native)</li>
-            <li className="skill-list__item">Redux</li>
-            <li className="skill-list__item">CSS3</li>
-            <li className="skill-list__item">VueJS</li>
-            <li className="skill-list__item">Angular</li>
-            <li className="skill-list__item">HTML5</li>
-        </ul> 
+        <section className="skills">
+            {technologies.map(({ node: technology }) => { 
+                return (
+                    <div className="skill-column">
+                        <h3>{ technology.category }</h3>
+                        <ul className="skill-list">
+                            {technology.skills.map((skill) => {
+                                return <li className="skill-list__item">{ skill.name }</li>
+                            })}
+                        </ul>
+                    </div>
+                )
+            })}
+        </section>
     )
 }
 

@@ -1,0 +1,70 @@
+[
+    {
+        "category": "Frontend",
+        "skills": [
+            {
+                "name": "HTML5 / CSS3"
+            },
+            {
+                "name": "Javascript + (ES6)"
+            },
+            {
+                "name": "SCSS"
+            },
+            {
+                "name": "Git"
+            },
+            {
+                "name": "Firebase"
+            }
+        ]
+    },
+    {
+        "category": "Backend",
+        "skills": [
+            {
+                "name": "PHP"
+            },
+            {
+                "name": "MySQL"
+            },
+            {
+                "name": "Laravel"
+            },
+            {
+                "name": "REST APIs"
+            },
+            {
+                "name": "NodeJS + (ExpressJS)"
+            },
+            {
+                "name": "Socket.IO"
+            }
+        ]
+    },
+    {
+        "category": "Frameworks",
+        "skills": [
+            {
+                "name": "React + (Native)"
+            },
+            {
+                "name": "GatsbyJS"
+            },
+            {
+                "name": "VueJS"
+            },
+            {
+                "name": "Angular"
+            }
+        ]
+    },
+    {
+        "category": "CMS",
+        "skills": [
+            {
+                "name": "WordPress"
+            }
+        ]
+    }
+]

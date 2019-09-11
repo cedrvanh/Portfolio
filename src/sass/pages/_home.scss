@@ -77,8 +77,8 @@ body {
 }
 
 .projects,
-.skills {
-    margin-bottom: 10rem;
+.technologies {
+    margin-bottom: 20rem;
 }
 
 .project-list {
@@ -105,9 +105,11 @@ body {
 //     height: 560px;
 // }
 
-.skills p {
-    max-width: 750px;
-    margin: 0;
+.technologies {
+    &__text {
+        max-width: 700px;
+        margin: 0;
+    }   
 }
 
 .contact-bar {

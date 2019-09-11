@@ -1,4 +1,27 @@
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.6rem;
+    margin-left: 6.4rem;
+}
+
+.skill-column {
+    width: 100%;
+    margin-bottom: 3.2rem;
+}
+
 .skill-list {
+    width: 100%;
+    color: lighten($color-secondary, 50);
     font-size: 2rem;
-    margin-left: 3rem;
+    font-weight: bold;
+
+    &__item {
+        line-height: 1.6;
+        transition: all .2s ease;
+
+        &:hover {
+            color: lighten($color-secondary, 0);
+        }
+    }
 }
