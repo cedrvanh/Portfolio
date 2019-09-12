@@ -3,11 +3,11 @@ import { graphql, useStaticQuery, Link } from 'gatsby';
 
 import Layout from "../layouts/layout"
 
-import SEO from "../components/Seo"
-import ScrollArrow from "../components/ScrollArrow"
-import ProjectCard from "../components/ProjectCard";
-import SkillList from "../components/SkillList";
-import Footer from "../components/Footer";
+import SEO from "../components/seo"
+import ScrollArrow from "../components/scrollArrow"
+import ProjectCard from "../components/projectCard";
+import SkillList from "../components/skillList";
+import Footer from "../components/footer";
 
 import HeroImg from '../images/hero.jpg';
 

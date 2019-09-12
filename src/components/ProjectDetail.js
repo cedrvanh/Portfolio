@@ -8,7 +8,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 // Import components
-import NextProject from './NextProject';
+import NextProject from './nextProject';
 
 const ProjectDetail = ({ project, nextProject }) => {
     const styles = {
