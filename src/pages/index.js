@@ -19,6 +19,7 @@ const IndexPage = () => {
                     node {
                         title
                         slug
+                        class
                         category
                         tags
                         content {
@@ -46,7 +47,7 @@ const IndexPage = () => {
                 <section className="hero">
                     <h1 className="hero__title medium">
                         Hello!<br />
-                        My name is <Link to="/" className="uppercase bold">cedric</Link> and I am a <Link to="/" className="uppercase bold">web developer</Link> based in <Link to="/" className="uppercase bold">kortrijk, belgium.</Link>
+                        My name is <Link to="/" className="uppercase bold">cedric</Link> and I am a <Link to="/" className="uppercase bold">full stack developer</Link> based in <Link to="/" className="uppercase bold">kortrijk, belgium.</Link>
                     </h1>
                     <div className="hero__image-block">
                         <div className="hero__image">
@@ -61,7 +62,7 @@ const IndexPage = () => {
                     <div className="project-list">
 
                         {projects.map(({ node: project }) => {
-                            return <ProjectCard project={project} /> 
+                            return <ProjectCard project={project}/> 
                         })}
                         
                         {/* <ProjectCard type="project-item square-block" />

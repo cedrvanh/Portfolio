@@ -2,8 +2,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 500px;
-    background: $color-primary no-repeat center / cover;
+    min-height: 450px;
+    background: $color-light no-repeat center / cover;
     overflow: hidden;
     
     &:hover {

@@ -2,6 +2,7 @@
     {
         "title": "Jourly",
         "slug": "jourly",
+        "class": "square-block",
         "content": {
             "desc": "Jourly is a personal diary based on your current mood. Write notes, take pictures and tell it how you feel. If you are feeling unhappy the diary will try to cheer you up with previous pleasant memories. Jourly gives you a weekly overview of your emotions so you can easily tell how happy you were during that week. Our goal is to make you remember the happy times and have you feel good about yourself.",
             "short_desc": "Jourly is a personal diary based on your current mood."
@@ -28,6 +29,7 @@
     {
         "title": "Sleep Tight",
         "slug": "sleep-tight",
+        "class": "vertical-block",
         "content": {
             "desc": "Sleep Tight is a sleep tracking app which tries to improve your sleeping pattern. It has an online community which helps other users improve their sleep. Take a quiz to determine what type of sleeper you are and we will do the rest. You can look at tips, videos and memes that other people post. Participate in photo contests and win awesome prizes!",
             "short_desc": "Sleep Tight is a mobile app that tracks your sleep pattern"
@@ -58,6 +60,7 @@
     {
         "title": "Lounge",
         "slug": "lounge",
+        "class": "square-block",
         "content": {
             "desc": "Jourly is a personal diary based on your current mood. Write notes, take pictures and tell it how you feel. If you are feeling unhappy the diary will try to cheer you up with previous pleasant memories. Jourly gives you a weekly overview of your emotions so you can easily tell how happy you were during that week. Our goal is to make you remember the happy times and have you feel good about yourself.",
             "short_desc": "Jourly is a personal diary based on your current mood."
@@ -84,6 +87,7 @@
     {
         "title": "Limento",
         "slug": "limento",
+        "class": "horizontal-block",
         "content": {
             "desc": "Jourly is a personal diary based on your current mood. Write notes, take pictures and tell it how you feel. If you are feeling unhappy the diary will try to cheer you up with previous pleasant memories. Jourly gives you a weekly overview of your emotions so you can easily tell how happy you were during that week. Our goal is to make you remember the happy times and have you feel good about yourself.",
             "short_desc": "Jourly is a personal diary based on your current mood."
