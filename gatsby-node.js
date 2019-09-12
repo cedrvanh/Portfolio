@@ -26,7 +26,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const projects = result.data.allProjectsJson.edges;
 
     projects.forEach(({ node: { slug } }, index) => {
-        const next = index === projects.length - 1 ? false : projects[index + 1].node;
+        const next = index === projects.length - 1 ? projects[0].node : projects[index + 1].node;
 
         actions.createPage({
             path: `${slug}`,
