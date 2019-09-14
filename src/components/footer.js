@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="footer-wrapper">
                     <div className="row">
                         <div className="col-6">
-                            <h2>Do you have any questions? <br></br> Let's talk! <a href="mailto:c.vanhaegenberg@outlook.com" className="footer__mail">c.vanhaegenberg@outlook.com</a></h2>
+                            <h2>Do you have any questions? <br></br> Let's talk! <a href="mailto:c.vanhaegenberg@outlook.com" className="footer__mail">cedric@vanhaegenberg.be</a></h2>
                             <div className="footer__social">
                                 <a href="#" className="footer__social--link">LinkedIn</a>
                                 <a href="#" className="footer__social--link">Github</a>
