@@ -9,6 +9,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 // Import components
 import NextProject from './nextProject';
+import Footer from './Footer';
 
 const ProjectDetail = ({ project, nextProject }) => {
     const styles = {
@@ -75,6 +76,7 @@ const ProjectDetail = ({ project, nextProject }) => {
                     })
                 }
             </ul> */}
+            <Footer />
         </section>
     )
 };
