@@ -9,7 +9,7 @@
         },
         "category": "Mobile Application",
         "tags": ["React Native", "Expo", "Firebase", "SCSS"],
-        "thumbnail": "../project-1/thumbnail.png",
+        "thumbnail": "../project-2/thumbnail--alternative.png",
         "header": "../project-1/header.png",
         "links": {
             "repo": "https://github.com/cedrvanh/Jourly",
@@ -94,7 +94,7 @@
         },
         "category": "Mobile Application",
         "tags": ["React Native", "Expo", "Firebase", "SCSS"],
-        "thumbnail": "../project-1/thumbnail.png",
+        "thumbnail": "../project-4/thumbnail.png",
         "header": "../project-1/header.png",
         "links": {
             "repo": "https://github.com/cedrvanh/Jourly",

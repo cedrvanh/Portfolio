@@ -21,13 +21,12 @@ const IndexPage = () => {
                         slug
                         class
                         category
-                        tags
                         content {
                             short_desc
                         }
                         thumbnail {
-                            childImageSharp {
-                                fluid {
+                            childImageSharp  {
+                                fluid (quality: 100, maxWidth: 1500) {
                                     ...GatsbyImageSharpFluid
                                 }
                             }

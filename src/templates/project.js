@@ -14,18 +14,10 @@ export const query = graphql`
             tags
             content {
                 desc
-                short_desc
             }
             links  {
                 repo
                 live
-            }
-            thumbnail {
-                childImageSharp {
-                    fluid {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
             }
             header {
                 childImageSharp {
