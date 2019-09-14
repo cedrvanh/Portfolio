@@ -20,19 +20,27 @@
     align-items: center;
 }
 
-.bold {
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-bold {
     font-weight: 700;
 }
 
-.medium {
+.text-medium {
     font-weight: 500;
 }
 
-.light {
+.text-light {
     font-weight: 300;
 }
 
-.uppercase {
+.text-uppercase {
     text-transform: uppercase;
 }
 

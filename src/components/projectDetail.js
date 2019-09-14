@@ -27,7 +27,7 @@ const ProjectDetail = ({ project, nextProject }) => {
             <div className="project-detail-header" style={styles.bgImage}>
                 <div className="container--wide">
                     <h3 className="project-detail__category">{ project.category }</h3>
-                    <h1 className="project-detail__title uppercase">{ project.title }</h1>
+                    <h1 className="project-detail__title text-uppercase">{ project.title }</h1>
                 </div>
             </div>
             <div className="container--wide">

@@ -44,9 +44,9 @@ const IndexPage = () => {
             <SEO title="Home" />
             <div className="container--wide">
                 <section className="hero">
-                    <h1 className="hero__title medium">
+                    <h1 className="hero__title text-medium">
                         Hello!<br />
-                        My name is <Link to="/" className="uppercase bold">cedric</Link> and I am a <Link to="/" className="uppercase bold">full stack developer</Link> based in <Link to="/" className="uppercase bold">kortrijk, belgium.</Link>
+                        My name is <Link to="/" className="text-uppercase text-bold">cedric</Link> and I am a <Link to="/" className="text-uppercase text-bold">full stack developer</Link> based in <Link to="/" className="text-uppercase text-bold">kortrijk, belgium.</Link>
                     </h1>
                     <div className="hero__image-block">
                         <div className="hero__image">
