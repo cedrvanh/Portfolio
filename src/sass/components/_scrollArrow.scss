@@ -10,7 +10,7 @@
 }
 
 .bounce {
-    // animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
 }
 
 @keyframes bounce {
@@ -18,9 +18,9 @@
         transform: translate(-50%, 0);
     }
     40% {
-        transform: translate(-50%, -10px);
+        transform: translate(-50%, -5px);
     }
     60% {
-        transform: translate(-50%, -5px);
+        transform: translate(-50%, -2px);
     }
 }

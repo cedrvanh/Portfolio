@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+    padding: 4rem 0;
+    background-color: $color-secondary;
+    
+    h1 {
+        font-size: 4rem;
+        color: lighten($color-secondary, 30);
+    }
+}
+
+.contact {
+    &__mail {
+        color: #FFF;
+        margin: 0;
+        padding: 0;
+        background: none;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}
