@@ -9,9 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "../components/header"
-// import "./layout.css"
 import '../sass/main.scss';
+
+import Header from "../components/header";
 import Navigation from "../components/navigation";
 
 const Layout = ({ children }) => {
@@ -27,8 +27,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <Navigation /> */}
-      <main>{children}</main>
+      <Navigation visible={window.location.pathname === "/"}/>
+      <main>
+        {children}
+      </main>
     </>
   )
 }

@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
     }
 
     return (
-        <article className={`project-item ${project.class}`} style={styles.bgImage}>
+        <article className={`project-item ${project.class || 'square-block'}`} style={styles.bgImage}>
             <div className="project-item__content">
                 <div className="project-item__head">
                     <h2 className="project-title text-uppercase">{ project.title }</h2>

@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery, Link } from 'gatsby';
 
-import Layout from "../layouts/layout"
+import Layout from "../layouts/layout";
 
 import SEO from "../components/seo"
 import ScrollArrow from "../components/scrollArrow"
@@ -59,15 +59,9 @@ const IndexPage = () => {
                 <section className="projects">
                     <h1>Projects</h1>
                     <div className="project-list">
-
                         {projects.map(({ node: project }) => {
                             return <ProjectCard project={project}/> 
                         })}
-                        
-                        {/* <ProjectCard type="project-item square-block" />
-                        <ProjectCard type="project-item vertical-block" />
-                        <ProjectCard type="project-item square-block" />
-                        <ProjectCard type="project-item horizontal-block" /> */}
                     </div>
                 </section>
                 <section className="technologies">
@@ -84,19 +78,9 @@ const IndexPage = () => {
                     </div>         
                 </section>
             </div>
-            {/* <section className="contact-bar">
-                <div className="row">
-                    <div className="col-6 flex-center contact-bar-left">
-                        <h2>About Me</h2>
-                    </div>
-                    <div className="col-6 flex-center contact-bar-right">
-                        <h2>Contact Me</h2>
-                    </div>
-                </div>
-            </section> */}
             <Footer />
         </Layout>
     )
 }
 
-export default IndexPage
+export default IndexPage;
