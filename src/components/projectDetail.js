@@ -10,7 +10,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 // Import components
 import NextProject from './nextProject';
 import Footer from './footer';
-import Tag from './Tag';
+import Tag from './tag';
 
 const ProjectDetail = ({ project, nextProject }) => {
     const styles = {
