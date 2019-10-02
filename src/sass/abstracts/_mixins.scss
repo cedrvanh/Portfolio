@@ -1,3 +1,9 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
+
+@mixin media-query-phone {
+    @media (max-width: 600px) { 
+        @content; 
+    }
+}

@@ -12,6 +12,11 @@
 .col-6 {
     flex-basis: 50%;
     max-width: 50%;
+
+    @include media-query-phone {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 }
 
 .flex-center {

@@ -11,18 +11,30 @@ body {
     align-items: center;
     justify-content: space-between;
 
+    @include media-query-phone {
+        height: 450px;
+    }
+
     &__title {
         max-width: 900px;
         flex: 2;
         margin: 0;
         padding-right: 3.2rem;
         line-height: 1.3;
+
+        @include media-query-phone {
+            padding-right: 0;
+        }
     }
 
     &__image-block {
         max-width: 450px;
         height: 400px;
         flex: 1;
+
+        @include media-query-phone {
+            display: none;
+        }
     }
 
     &__image-wrapper {
@@ -87,6 +99,10 @@ body {
     grid-template-rows: 450px;
     grid-auto-flow: row dense;
     grid-gap: 1.6rem;
+
+    @include media-query-phone {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .square-block {
@@ -98,12 +114,23 @@ body {
 .vertical-block {
     grid-column: auto/span 1;
     grid-row: auto/span 2;
+
+    @include media-query-phone {
+        grid-column: auto/span 1;
+        grid-row: auto/span 1;
+        height: 450px;
+    }
 }
 
 .horizontal-block {
     grid-column: auto/span 2;
     grid-row: auto/span 1;
     height: 450px;
+
+    @include media-query-phone {
+        grid-column: auto/span 1;
+        grid-row: auto/span 1;
+    }
 }
 
 .technologies {

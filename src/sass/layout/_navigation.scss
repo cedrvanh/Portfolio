@@ -10,6 +10,10 @@
     height: 70px;
     padding: 0rem 1.6rem;
 
+    @include media-query-phone {
+        display: none;
+    }
+    
     &__left {
         flex-wrap: wrap;
         z-index: 9;

@@ -32,6 +32,10 @@
         padding: 6.4rem;
         overflow: hidden;
         color: $color-secondary;
+        
+        @include media-query-phone {
+            padding: 3.2rem;
+        }
     }
 
     &__head {

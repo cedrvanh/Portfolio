@@ -13,7 +13,7 @@ const Footer = () => {
                                 <a href="https://github.com/cedrvanh" target="_blank" className="footer__social--link">Github</a>
                             </div>
                         </div>
-                        <div className="col-6 text-right">
+                        <div className="col-6 text-right footer-right">
                             <h2 className="resume">Check out my resume</h2>
                             <a href="#" className="btn btn--primary">View Resume</a>
                         </div>

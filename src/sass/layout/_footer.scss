@@ -2,7 +2,11 @@
     width: 100%;
     padding: 8rem 0 6rem 0;
     background-color: $color-secondary;
-
+    
+    @include media-query-phone {
+        padding: 4rem 0 2rem 0;
+    }
+    
     h2 {
         color: lighten($color-secondary, 30);
         margin-top: 0;
@@ -18,6 +22,10 @@
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
+
+        @include media-query-phone {
+            justify-content: flex-start;
+        }
     }
 
     &__bottom {
@@ -57,4 +65,11 @@
 .resume {
     color: #FFF !important;
     margin-bottom: 2.4rem;
+}
+
+@include media-query-phone {
+    .footer-right {
+        text-align: left;
+        margin-top: 3.2rem;
+    }
 }
