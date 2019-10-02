@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navigation visible={window.location.pathname === "/"}/>
+      <Navigation visible={window.location.pathname === "/" || window.location.pathname === "/about/" }/>
       <main>
         {children}
       </main>

@@ -10,7 +10,7 @@ const Footer = () => {
                             <h2>Do you have any questions? <br></br> Let's talk! <a href="mailto:c.vanhaegenberg@outlook.com" className="footer__mail">cedric@vanhaegenberg.be</a></h2>
                             <div className="footer__social">
                                 <a href="#" className="footer__social--link">LinkedIn</a>
-                                <a href="#" className="footer__social--link">Github</a>
+                                <a href="https://github.com/cedrvanh" target="_blank" className="footer__social--link">Github</a>
                             </div>
                         </div>
                         <div className="col-6 text-right">

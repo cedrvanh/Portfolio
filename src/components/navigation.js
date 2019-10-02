@@ -14,7 +14,7 @@ const Navigation = ({ visible }) => (
             <nav className="header-nav">
               <ul className="header-nav__list">
                 <li className="header-nav__item">
-                  <Link className="header-nav__link" to="/">About</Link>
+                  <Link className="header-nav__link" to="/about">About</Link>
                 </li>
                 <li className="header-nav__item">
                   <Link className="header-nav__link" to="/">Work</Link>
