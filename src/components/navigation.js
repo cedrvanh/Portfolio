@@ -9,7 +9,7 @@ const Navigation = ({ visible }) => (
       <div class="container--wide">
         <header className="header">
             <div className="header__left">
-              <h2 className="header__brand">Cedric Vanhaegenberg</h2>
+              <Link to="/"><h2 className="header__brand">Cedric Vanhaegenberg</h2></Link>
             </div>
             <nav className="header-nav">
               <ul className="header-nav__list">

@@ -10,6 +10,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 // Import components
 import NextProject from './nextProject';
 import Footer from './footer';
+import Tag from './Tag';
 
 const ProjectDetail = ({ project, nextProject }) => {
     const styles = {
@@ -29,6 +30,11 @@ const ProjectDetail = ({ project, nextProject }) => {
                 <div className="container--wide">
                     <h3 className="project-detail__category">{ project.category }</h3>
                     <h1 className="project-detail__title text-uppercase">{ project.title }</h1>
+                    <div className="tag-list">
+                        {project.tags.map((tag) => {
+                            return <Tag tag={tag} />
+                        })}
+                    </div>
                 </div>
             </div>
             <div className="container--wide">

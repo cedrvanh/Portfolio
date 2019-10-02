@@ -13,6 +13,10 @@
     &__left {
         flex-wrap: wrap;
         z-index: 9;
+
+        a {
+            background: none;
+        }
     }
     
     &__brand {

@@ -41,3 +41,10 @@
         font-size: 7rem;
     }
 }
+
+.tag-list {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
