@@ -12,7 +12,7 @@ const AboutPage = () => (
       <div className="about">
         <h1>About Me</h1>
         <h2>I'm a Full Stack Developer from Kortrijk, Belgium.</h2>
-        <p><span className="highlight">Hello! I'm Cedric Vanhaegenberg and I'm student currently in my final year of the Bachelor Graphic and Digital Media in the Artevelde University College Ghent.</span></p> 
+        <p className="highlight-text"><span className="highlight">Hello! I'm Cedric Vanhaegenberg and I'm a student currently in my final year of the Bachelor Graphic and Digital Media in the Artevelde University College Ghent.</span></p> 
         <p>
         My first experience with coding was when I was 13 years old and I've been addicted ever since. 
         I'm a passionate developer who absolutely loves discovering and developing new solutions to your problems.
