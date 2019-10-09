@@ -8,7 +8,7 @@
             "short_desc": "Jourly is a personal diary based on your current mood."
         },
         "category": "Mobile Application",
-        "tags": ["React Native", "Expo", "Firebase", "SCSS"],
+        "tags": ["React Native", "Expo", "Firebase", "SASS"],
         "thumbnail": "../project-2/thumbnail--alternative.png",
         "header": "../project-1/header.png",
         "links": {
@@ -27,9 +27,67 @@
         ]
     },
     {
-        "title": "Sleep Tight",
-        "slug": "sleep-tight",
+        "title": "Limento",
+        "slug": "limento",
         "class": "vertical-block",
+        "content": {
+            "desc": "Limento is a food sharing app for the district near Timelab in Ghent. Limento offers social interaction by means of a online platform where people can buy and sell food or give it away for free. The person offering food can choose whether or not he wants to eat together with someone or if it is just takeaway. This can have a positive social impact on the community.",
+            "short_desc": "Limento is a food sharing app for the district near Timelab in Ghent"
+        },
+        "category": "Progressive Web App",
+        "tags": ["React", "SASS", "MongoDB", "PassportJS", "ExpressJS", "Socket.IO"],
+        "thumbnail": "../project-2/thumbnail.png",
+        "header": "../project-2/header.png",
+        "links": {
+            "repo": "https://github.com/cedrvanh/Limento",
+            "live": "https://github.com/cedrvanh/Limento"
+        },
+        "media": [
+            {
+                "path": "../project-2/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-2/mockup-2.jpg",
+                "caption": null
+            },
+            {
+                "path": "../project-2/mockup-3.jpg",
+                "caption": null
+            }
+        ]
+    },
+    {
+        "title": "desArt",
+        "slug": "desart",
+        "class": "square-block",
+        "content": {
+            "desc": "desArt is an online auctioning platform for creative minds. You can auction your art online and make money out of it or bid on other art pieces. We allow all types of art such as digital, paintings, sculptures and more.",
+            "short_desc": "desArt is an online auctioning platform for creative minds."
+        },
+        "category": "Website",
+        "tags": ["Angular", "Laravel", "TypeScript", "Blade", "PHP"],
+        "thumbnail": "../project-1/thumbnail.png",
+        "header": "../project-1/header.png",
+        "links": {
+            "repo": "https://github.com/cedrvanh/Jourly",
+            "live": "https://github.com/cedrvanh/Jourly"
+        },
+        "media": [
+            {
+                "path": "../project-1/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-1/mockup-2.jpg",
+                "caption": null
+            }
+        ]
+    },
+    {
+        "title": "Limento",
+        "slug": "sleep-tight",
+        "class": "horizontal-block",
         "content": {
             "desc": "Sleep Tight is a sleep tracking app which tries to improve your sleeping pattern. It has an online community which helps other users improve their sleep. Take a quiz to determine what type of sleeper you are and we will do the rest. You can look at tips, videos and memes that other people post. Participate in photo contests and win awesome prizes!",
             "short_desc": "Sleep Tight is a mobile app that tracks your sleep pattern"
@@ -53,60 +111,6 @@
             },
             {
                 "path": "../project-2/mockup-3.jpg",
-                "caption": null
-            }
-        ]
-    },
-    {
-        "title": "Lounge",
-        "slug": "lounge",
-        "class": "square-block",
-        "content": {
-            "desc": "Jourly is a personal diary based on your current mood. Write notes, take pictures and tell it how you feel. If you are feeling unhappy the diary will try to cheer you up with previous pleasant memories. Jourly gives you a weekly overview of your emotions so you can easily tell how happy you were during that week. Our goal is to make you remember the happy times and have you feel good about yourself.",
-            "short_desc": "Jourly is a personal diary based on your current mood."
-        },
-        "category": "Mobile Application",
-        "tags": ["React Native", "Expo", "Firebase", "SCSS"],
-        "thumbnail": "../project-1/thumbnail.png",
-        "header": "../project-1/header.png",
-        "links": {
-            "repo": "https://github.com/cedrvanh/Jourly",
-            "live": "https://github.com/cedrvanh/Jourly"
-        },
-        "media": [
-            {
-                "path": "../project-1/mockup-1.jpg",
-                "caption": "Mockup"
-            },
-            {
-                "path": "../project-1/mockup-2.jpg",
-                "caption": null
-            }
-        ]
-    },
-    {
-        "title": "Limento",
-        "slug": "limento",
-        "class": "horizontal-block",
-        "content": {
-            "desc": "Jourly is a personal diary based on your current mood. Write notes, take pictures and tell it how you feel. If you are feeling unhappy the diary will try to cheer you up with previous pleasant memories. Jourly gives you a weekly overview of your emotions so you can easily tell how happy you were during that week. Our goal is to make you remember the happy times and have you feel good about yourself.",
-            "short_desc": "Jourly is a personal diary based on your current mood."
-        },
-        "category": "Mobile Application",
-        "tags": ["React Native", "Expo", "Firebase", "SCSS"],
-        "thumbnail": "../project-4/thumbnail.png",
-        "header": "../project-1/header.png",
-        "links": {
-            "repo": "https://github.com/cedrvanh/Jourly",
-            "live": "https://github.com/cedrvanh/Jourly"
-        },
-        "media": [
-            {
-                "path": "../project-1/mockup-1.jpg",
-                "caption": "Mockup"
-            },
-            {
-                "path": "../project-1/mockup-2.jpg",
                 "caption": null
             }
         ]
