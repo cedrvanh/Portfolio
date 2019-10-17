@@ -9,7 +9,7 @@
         },
         "category": "Mobile Application",
         "tags": ["React Native", "Expo", "Firebase", "SASS"],
-        "thumbnail": "../project-2/thumbnail--alternative.png",
+        "thumbnail": "../project-1/thumbnail.png",
         "header": "../project-1/header.png",
         "links": {
             "repo": "https://github.com/cedrvanh/Jourly",
@@ -27,16 +27,43 @@
         ]
     },
     {
-        "title": "Limento",
-        "slug": "limento",
+        "title": "desArt",
+        "slug": "desart",
         "class": "vertical-block",
+        "content": {
+            "desc": "desArt is an online auctioning platform for creative minds. You can auction your art online and make money out of it or bid on other art pieces. We allow all types of art such as digital, paintings, sculptures and more.",
+            "short_desc": "desArt is an online auctioning platform for creative minds."
+        },
+        "category": "Website",
+        "tags": ["Angular", "Laravel", "TypeScript", "Blade", "PHP"],
+        "thumbnail": "../project-2/thumbnail.png",
+        "header": "../project-1/header.png",
+        "links": {
+            "repo": "https://github.com/cedrvanh/Jourly",
+            "live": "https://github.com/cedrvanh/Jourly"
+        },
+        "media": [
+            {
+                "path": "../project-1/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-1/mockup-2.jpg",
+                "caption": null
+            }
+        ]
+    },
+    {
+        "title": "Sleep Tight",
+        "slug": "sleep-tight",
+        "class": "square-block",
         "content": {
             "desc": "Limento is a food sharing app for the district near Timelab in Ghent. Limento offers social interaction by means of a online platform where people can buy and sell food or give it away for free. The person offering food can choose whether or not he wants to eat together with someone or if it is just takeaway. This can have a positive social impact on the community.",
             "short_desc": "Limento is a food sharing app for the district near Timelab in Ghent"
         },
         "category": "Progressive Web App",
-        "tags": ["React", "SASS", "MongoDB", "PassportJS", "ExpressJS", "Socket.IO"],
-        "thumbnail": "../project-2/thumbnail.png",
+        "tags": ["Angular", "WordPress", "PHP", "MySQL"],
+        "thumbnail": "../project-2/thumbnail--alternative.png",
         "header": "../project-2/header.png",
         "links": {
             "repo": "https://github.com/cedrvanh/Limento",
@@ -53,33 +80,6 @@
             },
             {
                 "path": "../project-2/mockup-3.jpg",
-                "caption": null
-            }
-        ]
-    },
-    {
-        "title": "desArt",
-        "slug": "desart",
-        "class": "square-block",
-        "content": {
-            "desc": "desArt is an online auctioning platform for creative minds. You can auction your art online and make money out of it or bid on other art pieces. We allow all types of art such as digital, paintings, sculptures and more.",
-            "short_desc": "desArt is an online auctioning platform for creative minds."
-        },
-        "category": "Website",
-        "tags": ["Angular", "Laravel", "TypeScript", "Blade", "PHP"],
-        "thumbnail": "../project-1/thumbnail.png",
-        "header": "../project-1/header.png",
-        "links": {
-            "repo": "https://github.com/cedrvanh/Jourly",
-            "live": "https://github.com/cedrvanh/Jourly"
-        },
-        "media": [
-            {
-                "path": "../project-1/mockup-1.jpg",
-                "caption": "Mockup"
-            },
-            {
-                "path": "../project-1/mockup-2.jpg",
                 "caption": null
             }
         ]
@@ -116,42 +116,46 @@
         ]
     },
     {
-        "title": "Talent",
-        "slug": "talent",
+        "title": "Limento",
+        "slug": "limento",
         "class": "square-block",
         "content": {
-            "desc": "desArt is an online auctioning platform for creative minds. You can auction your art online and make money out of it or bid on other art pieces. We allow all types of art such as digital, paintings, sculptures and more.",
-            "short_desc": "desArt is an online auctioning platform for creative minds."
+            "desc": "Limento is a food sharing app for the district near Timelab in Ghent. Limento offers social interaction by means of a online platform where people can buy and sell food or give it away for free. The person offering food can choose whether or not he wants to eat together with someone or if it is just takeaway. This can have a positive social impact on the community.",
+            "short_desc": "Limento is a food sharing app for the district near Timelab in Ghent"
         },
-        "category": "Website",
-        "tags": ["Angular", "Laravel", "TypeScript", "Blade", "PHP"],
-        "thumbnail": "../project-1/thumbnail.png",
-        "header": "../project-1/header.png",
+        "category": "Progressive Web App",
+        "tags": ["React", "SASS", "MongoDB", "PassportJS", "ExpressJS", "Socket.IO"],
+        "thumbnail": "../project-2/thumbnail.png",
+        "header": "../project-2/header.png",
         "links": {
-            "repo": "https://github.com/cedrvanh/Jourly",
-            "live": "https://github.com/cedrvanh/Jourly"
+            "repo": "https://github.com/cedrvanh/Limento",
+            "live": "https://github.com/cedrvanh/Limento"
         },
         "media": [
             {
-                "path": "../project-1/mockup-1.jpg",
+                "path": "../project-2/mockup-1.jpg",
                 "caption": "Mockup"
             },
             {
-                "path": "../project-1/mockup-2.jpg",
+                "path": "../project-2/mockup-2.jpg",
+                "caption": null
+            },
+            {
+                "path": "../project-2/mockup-3.jpg",
                 "caption": null
             }
         ]
     },
     {
-        "title": "desArt",
-        "slug": "desart",
+        "title": "Talent",
+        "slug": "talent",
         "class": "square-block",
         "content": {
-            "desc": "desArt is an online auctioning platform for creative minds. You can auction your art online and make money out of it or bid on other art pieces. We allow all types of art such as digital, paintings, sculptures and more.",
-            "short_desc": "desArt is an online auctioning platform for creative minds."
+            "desc": "Online platform where you can discover various school projects made by students of the Bachelor Graphic and Digital Media from the Artevelde University in Ghent.",
+            "short_desc": "Online platform where you can discover various school projects made by students."
         },
         "category": "Website",
-        "tags": ["Angular", "Laravel", "TypeScript", "Blade", "PHP"],
+        "tags": ["ES6", "Gulp", "Firebase", "Handlebars", "Babel"],
         "thumbnail": "../project-1/thumbnail.png",
         "header": "../project-1/header.png",
         "links": {
