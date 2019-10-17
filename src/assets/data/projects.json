@@ -85,20 +85,20 @@
         ]
     },
     {
-        "title": "Limento",
-        "slug": "sleep-tight",
+        "title": "3D PRINT",
+        "slug": "3d-print",
         "class": "horizontal-block",
         "content": {
-            "desc": "Sleep Tight is a sleep tracking app which tries to improve your sleeping pattern. It has an online community which helps other users improve their sleep. Take a quiz to determine what type of sleeper you are and we will do the rest. You can look at tips, videos and memes that other people post. Participate in photo contests and win awesome prizes!",
-            "short_desc": "Sleep Tight is a mobile app that tracks your sleep pattern"
+            "desc": "Part of the new promotional campaign for the education 3D Printing & Modeling of the Artevelde University College in Ghent. I was tasked with developing a promotional website that would inform visitors and possible students about the classes. This site was made with Vue.js and WordPress as a headless CMS. The content would be updated reguraly and the client needed to be able to add and update classes.",
+            "short_desc": "A promotional website for the education 3D Printing & Modeling of the Artevelde University College in Ghent."
         },
-        "category": "Mobile Application",
-        "tags": ["Angular", "WordPress", "TypeScript", "MySQL"],
+        "category": "Website",
+        "tags": ["Vue.js", "WordPress", "SASS", "A-Frame", "Axios"],
         "thumbnail": "../project-2/thumbnail.png",
         "header": "../project-2/header.png",
         "links": {
-            "repo": "https://github.com/cedrvanh/Jourly",
-            "live": "https://github.com/cedrvanh/Jourly"
+            "repo": "https://github.com/cedrvanh/3DPrinting",
+            "live": "https://3d.gdm.gent/home"
         },
         "media": [
             {
@@ -111,6 +111,60 @@
             },
             {
                 "path": "../project-2/mockup-3.jpg",
+                "caption": null
+            }
+        ]
+    },
+    {
+        "title": "Talent",
+        "slug": "talent",
+        "class": "square-block",
+        "content": {
+            "desc": "desArt is an online auctioning platform for creative minds. You can auction your art online and make money out of it or bid on other art pieces. We allow all types of art such as digital, paintings, sculptures and more.",
+            "short_desc": "desArt is an online auctioning platform for creative minds."
+        },
+        "category": "Website",
+        "tags": ["Angular", "Laravel", "TypeScript", "Blade", "PHP"],
+        "thumbnail": "../project-1/thumbnail.png",
+        "header": "../project-1/header.png",
+        "links": {
+            "repo": "https://github.com/cedrvanh/Jourly",
+            "live": "https://github.com/cedrvanh/Jourly"
+        },
+        "media": [
+            {
+                "path": "../project-1/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-1/mockup-2.jpg",
+                "caption": null
+            }
+        ]
+    },
+    {
+        "title": "desArt",
+        "slug": "desart",
+        "class": "square-block",
+        "content": {
+            "desc": "desArt is an online auctioning platform for creative minds. You can auction your art online and make money out of it or bid on other art pieces. We allow all types of art such as digital, paintings, sculptures and more.",
+            "short_desc": "desArt is an online auctioning platform for creative minds."
+        },
+        "category": "Website",
+        "tags": ["Angular", "Laravel", "TypeScript", "Blade", "PHP"],
+        "thumbnail": "../project-1/thumbnail.png",
+        "header": "../project-1/header.png",
+        "links": {
+            "repo": "https://github.com/cedrvanh/Jourly",
+            "live": "https://github.com/cedrvanh/Jourly"
+        },
+        "media": [
+            {
+                "path": "../project-1/mockup-1.jpg",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-1/mockup-2.jpg",
                 "caption": null
             }
         ]
