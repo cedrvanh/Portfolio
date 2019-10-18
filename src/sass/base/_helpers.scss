@@ -61,6 +61,24 @@
     box-shadow: 10px 0 0 $color-primary, -10px 0 0 $color-primary;
 }
 
+.hide {
+    display: none;
+
+    &-lg {
+        display: none;
+
+        @include media-query-phone {
+            display: block;
+        }
+    }
+
+    &-xs {
+        @include media-query-phone {
+            display: none;
+        }
+    }
+}
+
 .anim {
     &--delay-1 {
         transition-delay: .1s !important;

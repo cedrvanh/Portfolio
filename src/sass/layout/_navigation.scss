@@ -1,4 +1,5 @@
 .header {    
+    z-index: 999;
     position: absolute;
     top: 0;
     left: 0;
@@ -10,13 +11,24 @@
     height: 70px;
     padding: 0rem 1.6rem;
 
-    @include media-query-phone {
-        display: none;
+    @include media-query-phone {        
+        height: auto;
+        background-color: $color-primary;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
     
     &__left {
-        flex-wrap: wrap;
         z-index: 9;
+        width: 100%;
+        height: 70px; 
+
+        @include media-query-phone {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
         a {
             background: none;
@@ -29,21 +41,47 @@
 
     &-nav {
         z-index: 9;
+        width: 100%;
         margin-top: 2rem;
         margin-bottom: 2rem;
 
+        @include media-query-phone {
+            height: calc(100vh - 110px);
+        }
+
         &__list {
             display: flex;
-            
+            justify-content: flex-end;
+
+            @include media-query-phone {
+                flex-direction: column;
+                justify-content: flex-start;
+            }
         }
 
         &__item {
             margin-left: 2rem;
             z-index: 999;
+
+            @include media-query-phone {
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                margin-left: 0;
+            }
         }
 
         &__link {
-            font-size: 2.5rem;
+            font-size: 2.5rem;            
+
+            @include media-query-phone {
+                font-size: 3.5rem;
+                background: none;
+            }
         }
     }
+}
+
+.logo {
+    width: 32px;
+    object-fit: contain;
 }
