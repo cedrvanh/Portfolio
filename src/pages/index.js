@@ -69,7 +69,9 @@ const IndexPage = () => {
                     <div className="row">
                     <div className="col-6">
                             <p className="technologies__text">
-                                These are some of the web technologies I'm familiar with and have used in recent years. There is still a lot left to learn and discover and I'm still improving in Front and Backend development.
+                                {/* These are some of the web technologies I'm familiar with and have used in recent years. There is still a lot left to learn and discover and I'm still improving in Front and Backend development. */}
+
+                                Here are some of the technologies and skills I have experience and worked with so far. I'm still challenging myself to new ideas out of my comfort zone that requires me to learn new things. I'm also skilled with the Adobe Creative Suite so Photoshop or Adobe XD have no secrets for me.
                             </p>   
                         </div> 
                         <div className="col-6">

@@ -47,7 +47,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 0rem 1.6rem;
-    
+
     &--fluid {
         width: 100%;
         margin-left: auto;
@@ -62,5 +62,9 @@ ul {
         margin-left: auto;
         margin-right: auto;
         padding: 0rem 1.6rem;
+
+        @include media-query-laptop {
+            max-width: $container-width;
+        }
     }
 }

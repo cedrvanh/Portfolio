@@ -7,3 +7,9 @@
         @content; 
     }
 }
+
+@mixin media-query-laptop {
+    @media (max-width: 1601px) { 
+        @content; 
+    }
+}
