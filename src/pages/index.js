@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import AOS from 'aos';
 import { graphql, useStaticQuery, Link } from 'gatsby';
 
 import Layout from "../layouts/layout";
@@ -12,6 +13,7 @@ import Footer from "../components/footer";
 import HeroImg from '../images/hero.jpg';
 
 const IndexPage = () => {
+    
     const data = useStaticQuery(graphql`
         query {
             allProjectsJson {
@@ -39,11 +41,18 @@ const IndexPage = () => {
 
     const projects = data.allProjectsJson.edges;
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1500,
+            once: true
+        });
+    });
+
     return (
         <Layout>
             <SEO title="Home" />
             <div className="container--wide">
-                <section className="hero">
+                <section className="hero" data-aos="fade-up">
                     <h1 className="hero__title text-medium">
                         Hello!<br />
                         My name is <Link to="/" className="text-uppercase text-bold">cedric</Link> and I am a <Link to="/" className="text-uppercase text-bold">full stack developer</Link> based in <Link to="/" className="text-uppercase text-bold">kortrijk, belgium.</Link>
@@ -58,13 +67,13 @@ const IndexPage = () => {
                 </section>
                 <section className="projects">
                     <h1>Projects</h1>
-                    <div className="project-list">
+                    <div className="project-list" data-aos="fade-up">
                         {projects.map(({ node: project }) => {
                             return <ProjectCard project={project}/> 
                         })}
                     </div>
                 </section>
-                <section className="technologies">
+                <section className="technologies" data-aos="fade-up"> 
                     <h1>Technologies</h1>
                     <div className="row">
                     <div className="col-6">
