@@ -62,7 +62,7 @@ const ProjectDetail = ({ project, nextProject }) => {
                         </div>
                     </div>
                 }
-                {
+                {project.media && 
                     project.media.map((image) => {
                         return (
                             <div className="project-detail-media">

@@ -11,13 +11,13 @@
     height: 70px;
     padding: 0rem 1.6rem;
 
-    @include media-query-phone {        
-        height: auto;
-        background-color: $color-primary;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
+    // @include media-query-phone {        
+    //     height: auto;
+    //     background-color: $color-primary;
+    //     flex-direction: column;
+    //     align-items: flex-start;
+    //     justify-content: flex-start;
+    // }
     
     &__left {
         z-index: 9;
@@ -45,18 +45,18 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
 
-        @include media-query-phone {
-            height: calc(100vh - 110px);
-        }
+        // @include media-query-phone {
+        //     height: calc(100vh - 110px);
+        // }
 
         &__list {
             display: flex;
             justify-content: flex-end;
 
-            @include media-query-phone {
-                flex-direction: column;
-                justify-content: flex-start;
-            }
+            // @include media-query-phone {
+            //     flex-direction: column;
+            //     justify-content: flex-start;
+            // }
         }
 
         &__item {
@@ -74,7 +74,8 @@
             font-size: 2.5rem;            
 
             @include media-query-phone {
-                font-size: 3.5rem;
+                font-size: 2rem;
+                // font-size: 3.5rem;
                 background: none;
             }
         }

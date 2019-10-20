@@ -37,49 +37,38 @@
         "category": "Website",
         "tags": ["Angular", "Laravel", "TypeScript", "Blade", "PHP"],
         "thumbnail": "../project-2/thumbnail.png",
-        "header": "../project-1/header.png",
+        "header": "../project-2/header.png",
         "links": {
-            "repo": "https://github.com/cedrvanh/Jourly",
-            "live": "https://github.com/cedrvanh/Jourly"
-        },
-        "media": [
-            {
-                "path": "../project-1/mockup-1.jpg",
-                "caption": "Mockup"
-            },
-            {
-                "path": "../project-1/mockup-2.jpg",
-                "caption": null
-            }
-        ]
+            "repo": "https://github.com/cedrvanh/desArt",
+            "live": "https://github.com/cedrvanh/desArt"
+        }
     },
     {
         "title": "Sleep Tight",
         "slug": "sleep-tight",
-        "class": "square-block",
         "content": {
-            "desc": "Limento is a food sharing app for the district near Timelab in Ghent. Limento offers social interaction by means of a online platform where people can buy and sell food or give it away for free. The person offering food can choose whether or not he wants to eat together with someone or if it is just takeaway. This can have a positive social impact on the community.",
-            "short_desc": "Limento is a food sharing app for the district near Timelab in Ghent"
+            "desc": "Sleep Tight is a sleep tracking app which tries to improve your sleeping pattern. It has an online community which helps other users improve their sleep. Take a quiz to determine what type of sleeper you are and we will do the rest. You can look at tips, videos and memes that other people post. Participate in photo contests and win awesome prizes!",
+            "short_desc": "Sleep Tight is a mobile app that tracks your sleep pattern"
         },
         "category": "Progressive Web App",
         "tags": ["Angular", "WordPress", "PHP", "MySQL"],
-        "thumbnail": "../project-2/thumbnail--alternative.png",
-        "header": "../project-2/header.png",
+        "thumbnail": "../project-3/thumbnail--alternative.png",
+        "header": "../project-3/header-test.png",
         "links": {
-            "repo": "https://github.com/cedrvanh/Limento",
-            "live": "https://github.com/cedrvanh/Limento"
+            "repo": "https://github.com/cedrvanh/Sleep-Tight",
+            "live": "https://github.com/cedrvanh/Sleep-Tight"
         },
         "media": [
             {
-                "path": "../project-2/mockup-1.jpg",
+                "path": "../project-3/mockup-1.jpg",
                 "caption": "Mockup"
             },
             {
-                "path": "../project-2/mockup-2.jpg",
+                "path": "../project-3/mockup-2.jpg",
                 "caption": null
             },
             {
-                "path": "../project-2/mockup-3.jpg",
+                "path": "../project-3/mockup-3.jpg",
                 "caption": null
             }
         ]
@@ -94,83 +83,43 @@
         },
         "category": "Website",
         "tags": ["Vue.js", "WordPress", "SASS", "A-Frame", "Axios"],
-        "thumbnail": "../project-2/thumbnail.png",
-        "header": "../project-2/header.png",
+        "thumbnail": "../project-4/thumbnail-wide.png",
+        "header": "../project-4/header.png",
         "links": {
             "repo": "https://github.com/cedrvanh/3DPrinting",
             "live": "https://3d.gdm.gent/home"
-        },
-        "media": [
-            {
-                "path": "../project-2/mockup-1.jpg",
-                "caption": "Mockup"
-            },
-            {
-                "path": "../project-2/mockup-2.jpg",
-                "caption": null
-            },
-            {
-                "path": "../project-2/mockup-3.jpg",
-                "caption": null
-            }
-        ]
+        }
     },
     {
         "title": "Limento",
         "slug": "limento",
-        "class": "square-block",
         "content": {
             "desc": "Limento is a food sharing app for the district near Timelab in Ghent. Limento offers social interaction by means of a online platform where people can buy and sell food or give it away for free. The person offering food can choose whether or not he wants to eat together with someone or if it is just takeaway. This can have a positive social impact on the community.",
             "short_desc": "Limento is a food sharing app for the district near Timelab in Ghent"
         },
         "category": "Progressive Web App",
         "tags": ["React", "SASS", "MongoDB", "PassportJS", "ExpressJS", "Socket.IO"],
-        "thumbnail": "../project-2/thumbnail.png",
-        "header": "../project-2/header.png",
+        "thumbnail": "../project-5/thumbnail.png",
+        "header": "../project-5/header.png",
         "links": {
             "repo": "https://github.com/cedrvanh/Limento",
             "live": "https://github.com/cedrvanh/Limento"
-        },
-        "media": [
-            {
-                "path": "../project-2/mockup-1.jpg",
-                "caption": "Mockup"
-            },
-            {
-                "path": "../project-2/mockup-2.jpg",
-                "caption": null
-            },
-            {
-                "path": "../project-2/mockup-3.jpg",
-                "caption": null
-            }
-        ]
+        }
     },
     {
         "title": "Talent",
         "slug": "talent",
-        "class": "square-block",
         "content": {
             "desc": "Online platform where you can discover various school projects made by students of the Bachelor Graphic and Digital Media from the Artevelde University in Ghent.",
             "short_desc": "Online platform where you can discover various school projects made by students."
         },
         "category": "Website",
         "tags": ["ES6", "Gulp", "Firebase", "Handlebars", "Babel"],
-        "thumbnail": "../project-1/thumbnail.png",
-        "header": "../project-1/header.png",
+        "thumbnail": "../project-6/thumbnail.png",
+        "header": "../project-6/header.png",
         "links": {
-            "repo": "https://github.com/cedrvanh/Jourly",
-            "live": "https://github.com/cedrvanh/Jourly"
-        },
-        "media": [
-            {
-                "path": "../project-1/mockup-1.jpg",
-                "caption": "Mockup"
-            },
-            {
-                "path": "../project-1/mockup-2.jpg",
-                "caption": null
-            }
-        ]
+            "repo": "https://github.com/cedrvanh/Talent",
+            "live": "https://github.com/cedrvanh/Talent"
+        }
     }
 ]

@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
     const styles = {
         bgImage: {
             backgroundImage: `url(${project.thumbnail.childImageSharp.fluid.src})`,
-            backgroundColor: `${project.background}`
+            // backgroundColor: `${project.background}`
         }
     }
 

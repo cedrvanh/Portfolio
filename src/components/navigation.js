@@ -32,7 +32,7 @@ const Navigation = ({ visible }) => {
                     <h2 className="header__brand hide-xs">Cedric Vanhaegenberg</h2>
                     <img className="logo hide-lg" src={Logo} alt="small-logo" />
                 </Link>
-                <span className="menuBtn close hide-lg" style={{fontSize: '2rem', marginRight: '10px'}} onClick={handleMenu}>Open</span>
+                {/* <span className="menuBtn close hide-lg" style={{fontSize: '2rem', marginRight: '10px'}} onClick={handleMenu}>Open</span> */}
               </div>
               <nav className="header-nav" style={{
                 display: isNavOpen ? 'block' : 'none'
