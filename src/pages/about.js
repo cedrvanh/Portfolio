@@ -7,7 +7,7 @@ import Footer from "../components/footer"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="About" keywords={[`cedric vanhaegenberg`, `portfolio`, `about`]} description="Portfolio website of Cedric Vanhaegenberg"/>
     <div className="container--wide">
       <div className="about">
         <h1>About Me</h1>

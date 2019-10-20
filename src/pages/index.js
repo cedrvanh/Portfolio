@@ -50,7 +50,7 @@ const IndexPage = () => {
 
     return (
         <Layout>
-            <SEO title="Home" />
+            <SEO title="Home" keywords={[`cedric vanhaegenberg`, `portfolio`, `index`]} description="Portfolio website of Cedric Vanhaegenberg"/>
             <div className="container--wide">
                 <section className="hero" data-aos="fade-up">
                     <h1 className="hero__title text-medium">
