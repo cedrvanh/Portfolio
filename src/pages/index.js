@@ -65,7 +65,7 @@ const IndexPage = () => {
                     </div>
                     <ScrollArrow />
                 </section>
-                <section className="projects" data-aos="fade-up">
+                <section className="projects" id="work" data-aos="fade-up">
                     <h1>Projects</h1>
                     <div className="project-list">
                         {projects.map(({ node: project }) => {
@@ -73,7 +73,7 @@ const IndexPage = () => {
                         })}
                     </div>
                 </section>
-                <section className="technologies" data-aos="fade-up"> 
+                <section className="technologies" id="technologies" data-aos="fade-up"> 
                     <h1>Technologies</h1>
                     <div className="row">
                     <div className="col-6">

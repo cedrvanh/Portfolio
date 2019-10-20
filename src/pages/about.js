@@ -20,7 +20,7 @@ const AboutPage = () => (
         I deliver the full creative process from user cases and wireframes to a working prototype. I consider myself a little bit of a designer as well. I enjoy creating good looking user interfaces with a good user experience.
         </p>
         <p>
-          I would describe myself as someone who is a honest, ambitious and hardworking individual. I am an easy going person who has no problem with following deadlines. I love teaching myself new web technologies and I always strive to keep up-to-date with everything thats going on. You can find a list of all the technologies I've worked with so far <a href="#">here</a>.
+          I would describe myself as someone who is a honest, ambitious and hardworking individual. I am an easy going person who has no problem with following deadlines. I love teaching myself new web technologies and I always strive to keep up-to-date with everything thats going on. You can find a list of all the technologies I've worked with so far <Link to="/#technologies">here</Link>.
         </p>
       </div>
     </div>

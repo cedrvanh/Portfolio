@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer" id="contact">
             <div className="container--wide">
                 <div className="footer-wrapper">
                     <div className="row">

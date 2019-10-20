@@ -42,10 +42,10 @@ const Navigation = ({ visible }) => {
                     <Link className="header-nav__link" to="/about">About</Link>
                   </li>
                   <li className="header-nav__item">
-                    <Link className="header-nav__link" to="/">Work</Link>
+                    <Link className="header-nav__link" to="#work">Work</Link>
                   </li>
                   <li className="header-nav__item">
-                    <Link className="header-nav__link" to="/">Contact</Link>
+                    <Link className="header-nav__link" to="#contact">Contact</Link>
                   </li>
                 </ul>
               </nav>
