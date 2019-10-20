@@ -43,7 +43,7 @@ const IndexPage = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 1500,
+            duration: 1000,
             once: true
         });
     });
@@ -65,9 +65,9 @@ const IndexPage = () => {
                     </div>
                     <ScrollArrow />
                 </section>
-                <section className="projects">
+                <section className="projects" data-aos="fade-up">
                     <h1>Projects</h1>
-                    <div className="project-list" data-aos="fade-up">
+                    <div className="project-list">
                         {projects.map(({ node: project }) => {
                             return <ProjectCard project={project}/> 
                         })}

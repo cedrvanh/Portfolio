@@ -1,4 +1,5 @@
 import React from 'react';
+import AOS from 'aos';
 import { Link } from 'gatsby';
 import Img from "gatsby-image";
 
@@ -65,7 +66,7 @@ const ProjectDetail = ({ project, nextProject }) => {
                 {project.media && 
                     project.media.map((image) => {
                         return (
-                            <div className="project-detail-media">
+                            <div className="project-detail-media" data-aos="fade up">
                                 <Img fluid={image.path.childImageSharp.fluid} />
                             </div>   
                         )

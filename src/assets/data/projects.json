@@ -41,7 +41,33 @@
         "links": {
             "repo": "https://github.com/cedrvanh/desArt",
             "live": "https://github.com/cedrvanh/desArt"
-        }
+        },
+        "media": [
+            {
+                "path": "../project-2/mockup-1.png",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-2/mockup-2.png",
+                "caption": null
+            },
+            {
+                "path": "../project-2/mockup-3.png",
+                "caption": null
+            },
+            {
+                "path": "../project-2/mockup-4.png",
+                "caption": null
+            },
+            {
+                "path": "../project-2/mockup-5.png",
+                "caption": null
+            },
+            {
+                "path": "../project-2/mockup-6.png",
+                "caption": null
+            }
+        ]
     },
     {
         "title": "Sleep Tight",
@@ -88,7 +114,17 @@
         "links": {
             "repo": "https://github.com/cedrvanh/3DPrinting",
             "live": "https://3d.gdm.gent/home"
-        }
+        },
+        "media": [
+            {
+                "path": "../project-4/mockup-1.png",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-4/mockup-2.png",
+                "caption": null
+            }
+        ]
     },
     {
         "title": "Limento",
@@ -104,7 +140,21 @@
         "links": {
             "repo": "https://github.com/cedrvanh/Limento",
             "live": "https://github.com/cedrvanh/Limento"
-        }
+        },
+        "media": [
+            {
+                "path": "../project-5/mockup-1.png",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-5/mockup-2.png",
+                "caption": null
+            },
+            {
+                "path": "../project-5/mockup-3.png",
+                "caption": null
+            }
+        ]
     },
     {
         "title": "Talent",
@@ -120,6 +170,20 @@
         "links": {
             "repo": "https://github.com/cedrvanh/Talent",
             "live": "https://github.com/cedrvanh/Talent"
-        }
+        },
+        "media": [
+            {
+                "path": "../project-6/mockup-1.png",
+                "caption": "Mockup"
+            },
+            {
+                "path": "../project-6/mockup-2.png",
+                "caption": null
+            },
+            {
+                "path": "../project-6/mockup-3.png",
+                "caption": null
+            }
+        ]
     }
 ]
