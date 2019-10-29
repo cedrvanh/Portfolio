@@ -47,12 +47,13 @@ const ProjectDetail = ({ project, nextProject }) => {
                         <div className="project-detail-intro__right project-detail-intro__text">
                             <p>{ project.content.desc || project.content.short_desc }</p>
                             <div className="btn-group">
+                                {project.links.live && 
                                 <a href={ project.links.live } className="btn btn--primary btn-move-anim">
                                     <span className="btn-label-up">Demo</span>
                                     <span className="btn-label-up">
                                         <FontAwesomeIcon icon={faEye} size="lg" />
                                     </span>
-                                </a>
+                                </a>}
                                 <a href={ project.links.repo } className="btn btn--secondary btn-move-anim">
                                     <span className="btn-label-up">Github</span>
                                     <span className="btn-label-up">
