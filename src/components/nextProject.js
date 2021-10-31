@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const NextProject = ({ next }) => {
+export default NextProject = ({ next }) => {
     const reverseSlug = (slug) => {
         const words = slug.split('-');
 
@@ -24,5 +24,3 @@ const NextProject = ({ next }) => {
         </Link>
     )
 }
-
-export default NextProject;

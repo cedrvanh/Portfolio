@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from 'gatsby';
 
-const SkillList = () => {
+export default SkillList = () => {
     const data = useStaticQuery(graphql`
         query {
             allTechnologiesJson {
@@ -36,5 +36,3 @@ const SkillList = () => {
         </section>
     )
 }
-
-export default SkillList;

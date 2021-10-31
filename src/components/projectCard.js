@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const ProjectCard = ({ project }) => {
+export default ProjectCard = ({ project }) => {
     const styles = {
         bgImage: {
             backgroundImage: `url(${project.thumbnail.childImageSharp.fluid.src})`,
-            // backgroundColor: `${project.background}`
         }
     }
 
@@ -25,5 +24,3 @@ const ProjectCard = ({ project }) => {
         </article>
     )
 };
-
-export default ProjectCard;

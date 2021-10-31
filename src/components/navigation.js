@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import Logo from '../images/logo.svg';
 
 
-const Navigation = ({ visible }) => {
+export default Navigation = ({ visible }) => {
   const [isNavOpen] = useState(true);
 
   return (
@@ -44,5 +44,3 @@ const Navigation = ({ visible }) => {
 Navigation.propTypes = {
   visible: PropTypes.bool,
 }
-
-export default Navigation;

@@ -13,7 +13,7 @@ import NextProject from './nextProject';
 import Footer from './footer';
 import Tag from './tag';
 
-const ProjectDetail = ({ project, nextProject }) => {
+export default ProjectDetail = ({ project, nextProject }) => {
     const styles = {
         bgImage: {
             backgroundImage: `url(${project.header.childImageSharp.fluid.src})`,
@@ -81,4 +81,3 @@ const ProjectDetail = ({ project, nextProject }) => {
     )
 };
 
-export default ProjectDetail;
