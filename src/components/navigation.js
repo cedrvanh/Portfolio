@@ -5,23 +5,9 @@ import { Link } from 'gatsby';
 import Logo from '../images/logo.svg';
 
 
-const Navigation = ({ visible }) => {
-  
-  const [isNavOpen, setIsNavOpen] = useState(true);
+export default Navigation = ({ visible }) => {
+  const [isNavOpen] = useState(true);
 
-  // Dirty - Replace with Icons and make cleaner
-  const handleMenu = () => {
-    const menuBtn = document.querySelector('.menuBtn');
-
-    setIsNavOpen(!isNavOpen);
-
-    if (menuBtn.firstChild.nodeValue === 'Close') {
-      menuBtn.innerHTML = 'Open'
-    } else {
-      menuBtn.innerHTML = 'Close'
-    }
-  };
-  
   return (
     <React.Fragment>
       {visible &&
@@ -32,7 +18,6 @@ const Navigation = ({ visible }) => {
                     <h2 className="header__brand hide-xs">Cedric Vanhaegenberg</h2>
                     <img className="logo hide-lg" src={Logo} alt="small-logo" />
                 </Link>
-                {/* <span className="menuBtn close hide-lg" style={{fontSize: '2rem', marginRight: '10px'}} onClick={handleMenu}>Open</span> */}
               </div>
               <nav className="header-nav" style={{
                 display: isNavOpen ? 'block' : 'none'
@@ -59,5 +44,3 @@ const Navigation = ({ visible }) => {
 Navigation.propTypes = {
   visible: PropTypes.bool,
 }
-
-export default Navigation;
