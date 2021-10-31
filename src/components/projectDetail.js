@@ -25,7 +25,6 @@ const ProjectDetail = ({ project, nextProject }) => {
     }
 
     return (
-        
         <section className="project-detail">
             <div className="project-detail-header" style={styles.bgImage}>
                 <div className="container--wide">
@@ -77,13 +76,6 @@ const ProjectDetail = ({ project, nextProject }) => {
                 
             </div>
             <NextProject next={nextProject} />
-            {/* <ul>
-                {
-                    project.tags.map((tag) => {
-                        return <li>{ tag }</li>
-                    })
-                }
-            </ul> */}
             <Footer />
         </section>
     )
